@@ -3,7 +3,7 @@
 ### Summary
 
 
-This is lightweight Kafka Docker image. Size of this image is less about 250MB (259.5 MB). If you compare with other images with Apache Kafka it is about 400MB less. Using this image you can configure cluster of Kafka brokers.
+This is lightweight Kafka Docker image. Size of this image is  about 250MB (259.5 MB). If you compare with other images with Apache Kafka it is about 400MB less. Using this image you can configure cluster of Kafka brokers.
 
 ### How to run
 
