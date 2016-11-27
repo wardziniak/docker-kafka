@@ -50,7 +50,7 @@ docker run -d --name kafka2 -p 9093:9093 --env ZOOKEEPER_IP=192.168.1.13 --env K
 ```
 
 ```{r, engine='bash', code_block_name}
-docker run -d --name kafka3 -p 9094:9094 --env ZOOKEEPER_IP=192.168.1.13 --env KAFKA_BROKER_ID=2 --env KAFKA_PORT=9093 --env KAFKA_ADVERTISED_PORT=9093 --env KAFKA_ADVERTISED_HOST_NAME=192.168.1.13 --volume /Users/wardziniak/data/kafka3-log:/data wardziniak/kafka
+docker run -d --name kafka3 -p 9094:9094 --env ZOOKEEPER_IP=192.168.1.13 --env KAFKA_BROKER_ID=2 --env KAFKA_PORT=9094 --env KAFKA_ADVERTISED_PORT=9094 --env KAFKA_ADVERTISED_HOST_NAME=192.168.1.13 --volume /Users/wardziniak/data/kafka3-log:/data wardziniak/kafka
 ```
 
 ####Notice
